@@ -7,6 +7,60 @@
     <title>Hamburger Task 1</title>
   </head>
   <style>
+    .coffecup {
+      bottom: 20%;
+      left: 100px;
+      right: 0;
+      top: 200px;
+      max-width: 400px;
+      height: 300px;
+      box-shadow: 15px 15px 15px #79aaf7;
+    }
+
+    .coffecup,
+    .cup,
+    .logo {
+      position: absolute;
+    }
+
+    .logo {
+      width: 100px;
+      height: 60px;
+      background-color: #f3c1f5;
+      border-radius: 20%;
+      left: 125px;
+      top: 80px;
+      padding-top: 15px;
+    }
+
+    #text {
+      text-align: center;
+      color: 0000;
+      font-weight: bold;
+    }
+
+    .straw {
+      width: 10px;
+      height: 150px;
+      bottom: 135px;
+      left: 170px;
+      border: 5px solid #125ce6;
+      position: relative;
+      border-top: initial;
+      border-bottom-style: initial;
+      opacity: 50%;
+      vertical-align: middle;
+    }
+
+    .cup {
+      width: 100px;
+      left: 100px;
+      border-top: 250px solid #a8e9f7;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      margin-top: 15px;
+    }
+
     .bun1 {
       background-color: #dfa700;
       height: 90px;
@@ -44,14 +98,19 @@
 
     .burger {
       margin: 0 auto;
+      margin-top: 125px;
       max-width: 280px;
       height: auto;
-      border: 8px dotted #f8e71c;
-
+      box-shadow: 15px 15px 15px #edef5b;
       padding: 40px 60px 40px 60px;
-      transform: rotateX(343deg);
     }
   </style>
+
+  <div class="coffecup">
+    <div class="cup"></div>
+    <div class="logo" id="text">LOGO</div>
+    <div class="straw"></div>
+  </div>
 
   <body>
     <div class="burger">
